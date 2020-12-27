@@ -6,9 +6,9 @@ mybatis-plus:
 spring:
   ##数据库连接信息
   datasource:
-    url: jdbc:mysql://192.168.1.73:3306/boot-table?serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true&allowMultiQueries=true
+    url: jdbc:mysql://127.0.0.1:3306/hotel_sys?serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true&allowMultiQueries=true
     username: root
-    password: digipower
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
     ###################以下为druid增加的配置###########################
     type: com.alibaba.druid.pool.DruidDataSource

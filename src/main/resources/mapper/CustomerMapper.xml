@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzg.mapper.CustomerMapper">
+  <resultMap id="BaseResultMap" type="com.zzg.entity.Customer">
+    <id column="CustomerID" jdbcType="VARCHAR" property="customerid" />
+    <result column="CustomerName" jdbcType="VARCHAR" property="customername" />
+    <result column="CustomerSex" jdbcType="VARCHAR" property="customersex" />
+    <result column="CustomerIDNumber" jdbcType="VARCHAR" property="customeridnumber" />
+    <result column="CustomerType" jdbcType="VARCHAR" property="customertype" />
+    <result column="CustomerPhone" jdbcType="VARCHAR" property="customerphone" />
+    <result column="CustomerCreateDate" jdbcType="DATE" property="customercreatedate" />
+  </resultMap>
+</mapper>

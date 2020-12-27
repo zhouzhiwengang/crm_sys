@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zzg.mapper.RoomMapper">
+  <resultMap id="BaseResultMap" type="com.zzg.entity.Room">
+    <id column="RoomID" jdbcType="VARCHAR" property="roomid" />
+    <result column="RoomType" jdbcType="VARCHAR" property="roomtype" />
+    <result column="RoomPrice" jdbcType="REAL" property="roomprice" />
+    <result column="RoomState" jdbcType="VARCHAR" property="roomstate" />
+  </resultMap>
+</mapper>
